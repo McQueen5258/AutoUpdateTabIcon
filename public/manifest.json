@@ -21,5 +21,31 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "shortcuts": [
+    {
+      "name": "This is Page A",
+      "short_name": "Page A",
+      "url": "/PageA",
+      "icons": [
+        { "src": "images/A.PNG", "sizes": "421x421", "type": "image/png" }
+      ]
+    },
+    {
+      "name": "This is Page B",
+      "short_name": "Page B",
+      "url": "/PageA",
+      "icons": [
+        { "src": "images/B.PNG", "sizes": "420x420", "type": "image/png" }
+      ]
+    },
+    {
+      "name": "This is Page C",
+      "short_name": "Page C",
+      "url": "/PageC",
+      "icons": [
+        { "src": "images/C.PNG", "sizes": "420x420", "type": "image/png" }
+      ]
+    }
+  ]
 }
